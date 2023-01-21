@@ -40,6 +40,7 @@ int main(){
 	}
 
 
+<<<<<<< HEAD
 	for(int i=0;i<=n-2;i++){
 		for(int j=0;j<=n-2-i;j++){
 			if(arr[j]>arr[j+1]){
@@ -50,6 +51,33 @@ int main(){
 		}
 		
 	}
+=======
+	// for(int i=0;i<=n-2;i++){
+	// 	for(int j=0;j<=n-2-i;j++){
+	// 		if(arr[j]>arr[j+1]){
+	// 			// swap(arr[j],arr[j+1]);
+
+	// 			// swap(arr[j+1],arr[j]);
+
+	// 			// using 3rd variable
+	// 			// int c=arr[j];
+	// 			// arr[j]=arr[j+1];
+	// 			// arr[j+1]=c;
+
+	// 			// without using 3rd variable
+	// 			// arr[j]=arr[j]+arr[j+1];
+	// 			// arr[j+1]=arr[j]-arr[j+1];
+	// 			// arr[j]=arr[j]-arr[j+1];
+
+
+	// 			// swap in one line
+	// 			arr[j]=(arr[j]+arr[j+1])-(arr[j+1]=arr[j]);
+				
+	// 		}
+
+	// 	}
+	// }
+>>>>>>> de98a2e82d9c6b6029e3fd4bbb70b13878796f1c
 
 
 
